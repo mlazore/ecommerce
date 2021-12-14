@@ -15,7 +15,7 @@ body {
 #navbar {
     margin:auto;
     padding: 10px;
-    background-color:lightcoral;
+    background-color:pink;
     height: 60px;
 }
 
@@ -94,65 +94,140 @@ h1 {
 
 .griditem1 {
     border-style: solid;
-    height: 250px;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .griditem2 {
     border-style: solid;
-    height: 250px;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem3 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem4 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem5 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem6 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem7 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem8 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem9 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem10 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem11 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .griditem12 {
     border-style: solid;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 /*contact page css*/
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding: 15px;
+    margin: 15px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
 
 
 /*Footer css below*/
@@ -178,7 +253,10 @@ h1 {
 
  .description {
      text-align: center;
+ }
 
+ .footer a i{
+     background-color: red;
  }
 
 
