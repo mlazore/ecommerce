@@ -1,10 +1,12 @@
 * {
     margin:0;
     padding:0;
+    font-style:normal;
+    
 }
 
 body {
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     font-size: medium;
     font-family: sans-serif;
 }
@@ -13,21 +15,28 @@ body {
 #navbar {
     margin:auto;
     padding: 10px;
-    background-color: blue;
-
+    background-color:lightcoral;
+    height: 60px;
 }
 
-.navbar ul {
+ul {
     padding:0%;
 }
 
-.navbar li {
+li {
     display: inline;
+    float:right;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    font-size: 20px;
 }
+
+
 /*H1 tag welcome to our shop changes*/
 h1 {
     text-align: center;
-    
+    padding: 10px;
 }
 
 #showcase1{
@@ -36,13 +45,13 @@ h1 {
     height: 500px;
     overflow: hidden;
     background-size: cover;
-    margin-top: 10px;
+    margin-top: px;
 }
 
 .showcasetext {
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 38%;
     transform: translate(-50 , 50);
     overflow: hidden;
     text-align: center;
@@ -52,18 +61,35 @@ h1 {
     font-size: 25px;
 }
 
+/*css for home page*/
+#infocontainer{
+
+
+}
+
+.card1 {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 1rem;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+.card2 {
+    display: grid;
+
+}
 
 
 /*Below made the width of the image the size of the container*/
-
-
-
 /*Product css below*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-style:solid;
     margin-top: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    padding: 5px;
 }
 
 .griditem1 {
@@ -125,3 +151,37 @@ h1 {
     border-style: solid;
     height: 250px;
 }
+
+/*contact page css*/
+
+
+/*Footer css below*/
+
+ #footer-container {
+     background-color: pink;
+    text-align: center;
+    padding: 25px;
+ }
+
+.Socials {
+    margin:0;
+    width:100px;
+    height: 20px;
+    padding: 25px;
+}
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+ }
+
+ .description {
+     text-align: center;
+
+ }
+
+
+
+ 
+
