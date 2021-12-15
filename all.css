@@ -17,11 +17,13 @@ body {
     padding: 10px;
     background-color: gray;
     height: 60px;
+    color:black;
     
 }
 
 ul {
     padding:0%;
+    color:black;
 }
 
 li {
@@ -31,6 +33,13 @@ li {
     padding-right: 10px;
     margin-top: 40px;
     font-size: 20px;
+    color:black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    
 }
 
 #Fitlife {
@@ -273,7 +282,19 @@ table {
     padding: 25px;
  }
 
-.Socials {
+.Facebook {
+    margin:0;
+    width:100px;
+    height: 20px;
+    padding: 25px;
+}
+.Instagram {
+    margin:0;
+    width:100px;
+    height: 20px;
+    padding: 25px;
+}
+.Twitter {
     margin:0;
     width:100px;
     height: 20px;
@@ -300,7 +321,7 @@ table {
         float:left;
         margin-left: 44%;
         text-decoration: none;
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         font-style: oblique;
     }
