@@ -250,7 +250,7 @@ table {
     overflow: hidden;
     text-align: center;
     padding: 5px;
-    text-shadow: black 5px 3px;
+    text-shadow: black 5px 2px;
     font-size: 25px;
     background-color: rgba(100, 100, 100, .30);
 }
