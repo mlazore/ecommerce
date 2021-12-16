@@ -22,6 +22,10 @@ ul {
 	padding: 0%;
 	color: black;
 }
+ul:hover{
+    background-color: white;
+
+}
 
 li {
 	display: inline;
@@ -31,6 +35,9 @@ li {
 	margin-top: 40px;
 	font-size: 20px;
 	color: black;
+}
+li:hover{
+    background-color: white;
 }
 
 nav ul li a {
@@ -287,6 +294,7 @@ table {
 	width: 100px;
 	height: 20px;
 	padding: 25px;
+    color: plum;
 }
 
 .Twitter {
@@ -294,6 +302,7 @@ table {
 	width: 100px;
 	height: 20px;
 	padding: 25px;
+    color: royalblue;
 }
 
 .footer {
