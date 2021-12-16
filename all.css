@@ -6,7 +6,7 @@
 
 body {
 	background-color: rgb(255, 255, 255);
-	font-size: small;
+	font-size: large;
 	font-family: Apple;
 }
 
@@ -66,7 +66,7 @@ h1 {
 #showcase1 {
 	position: relative;
 	background: url(heroimage.jpeg) no-repeat center;
-	height: 500px;
+	height: 800px;
 	overflow: hidden;
 	background-size: cover;
 	width: 100%;
